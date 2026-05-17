@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erklärung zur Barrierefreiheit - Deluge Notes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Deluge Notes Startseite">
+          <img src="Logo.png" alt="Deluge Notes Logo" />
+          <span>Deluge Notes</span>
+        </a>
+        <div class="header-actions">
+          <button type="button">Download</button>
+          <button type="button">Sign In</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Erklärung zur Barrierefreiheit</h1>
+
+      <section class="intro-section">
+        <p>
+          Diese Erklärung zur Barrierefreiheit gilt für die Website
+          <em>Deluge Notes</em>.
+        </p>
+        <p>
+          Diese Website ist wegen der nachfolgenden Unvereinbarkeiten und
+          Ausnahmen teilweise mit den Web Content Accessibility Guidelines
+          (WCAG) 2.2 auf Konformitätsstufe AA vereinbar.
+        </p>
+      </section>
+      <section class="feature-section">
+        <h2>Nicht barrierefreie Inhalte</h2>
+        <p>
+          Die nachfolgend aufgeführten Inhalte sind aus den folgenden Gründen
+          nicht barrierefrei:
+        </p>
+
+        <h3>Inhalte außerhalb des Einflussbereichs</h3>
+        <p>
+          Auf unserer Website ist ein Video über die offizielle
+          Programmierschnittstelle von YouTube (Google LLC) eingebettet. Die
+          Struktur und die Barrierefreiheit dieses eingebetteten Video-Players
+          können von uns nicht modifiziert oder direkt beeinflusst werden.
+        </p>
+        <p>
+          Eine Automatisierte Prüfung mit dem standardisierten Testwerkzeug
+          <em>axe-DevTools</em> weist in diesen Komponenten aktuell folgende
+          Einschränkungen auf:
+        </p>
+        <ul>
+          <li>
+            <strong>Fehlende Textalternative für Bedienelemente:</strong> Ein
+            Button innerhalb des YouTube-Interfaces verfügt über keinen
+            eindeutig unterscheidbaren oder maschinell auslesbaren Text.
+          </li>
+          <li>
+            <strong>Nicht zulässige ARIA-Attribute:</strong> Der Hauptcontainer
+            des YouTube-Players nutzt ARIA-Attribute, die in der zugewiesenen
+            Rolle laut Standard nicht zulässig sind.
+          </li>
+        </ul>
+        <p>
+          Wir stehen diesbezüglich in Abhängigkeit zum Dienstanbieter. Sollten
+          Updates der Google-API diese Fehler beheben, werden sie automatisch
+          auf unserer Website wirksam.
+        </p>
+      </section>
+
+      <section class="feature-section">
+        <p>Diese Erklärung wurde am 17. Mai 2026 erstellt.</p>
+      </section>
+
+      <section class="feature-section">
+        <h2>Feedback und Kontaktangaben</h2>
+        <p>
+          Wenn Ihnen Barrieren auf unserer Website auffallen oder Sie
+          Informationen zu nicht barrierefreien Inhalten benötigen, können Sie
+          uns gerne kontaktieren. Wir bemühen uns, Ihnen die gewünschten
+          Informationen zeitnah bereitzustellen.
+        </p>
+        <p>
+          <strong>Kontakt:</strong><br />
+          Deluge Software GmbH<br />
+          E-Mail:
+          <a href="mailto:support@delugenotes.com">support@delugenotes.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="footer-nav" aria-label="Fußzeilen-Navigation">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="lizenz.html">Lizenz</a>
+        <a href="barrierefreiheitserklaerung.html">Barrierefreiheit</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </footer>
+  </body>
+</html>

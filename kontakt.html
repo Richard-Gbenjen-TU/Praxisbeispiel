@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt - Deluge Notes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Deluge Notes Startseite">
+          <img src="Logo.png" alt="Deluge Notes Logo" />
+          <span>Deluge Notes</span>
+        </a>
+        <div class="header-actions">
+          <button type="button">Download</button>
+          <button type="button">Sign In</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Kontaktieren Sie uns</h1>
+
+      <section class="intro-section">
+        <p>
+          Haben Sie Fragen zu Deluge Notes, benötigen Sie Unterstützung bei der
+          Einrichtung oder interessieren Sie sich für unser Edu-Modell für
+          Bildungseinrichtungen? Unser Team in Wien steht Ihnen gerne zur
+          Verfügung.
+        </p>
+      </section>
+
+      <section class="feature-section">
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h2>Unsere Kontaktdaten</h2>
+            <div class="contact-details">
+              <p><strong>Postanschrift:</strong></p>
+              <p>
+                Deluge Software GmbH<br />Flut-Allee 42<br />1170 Wien<br />Österreich
+              </p>
+
+              <br />
+              <p><strong>Telefon &amp; Fax:</strong></p>
+              <p>
+                Vertrieb: <a href="tel:+43316123450">+43 (0) 123 12345-0</a>
+              </p>
+              <p>
+                Support: <a href="tel:+433161234511">+43 (0) 456 12345-11</a>
+                <br /><small>(Mo–Fr, 09:00 – 17:00 Uhr)</small>
+              </p>
+              <br />
+              <p><strong>E-Mail-Adressen:</strong></p>
+              <p>
+                Allgemein:
+                <a href="mailto:info@delugenotes.com">info@delugenotes.com</a>
+              </p>
+              <p>
+                Support:
+                <a href="mailto:support@delugenotes.com"
+                  >support@delugenotes.com</a
+                >
+              </p>
+              <p>
+                Edu-Anfragen:
+                <a href="mailto:edu@delugenotes.com">edu@delugenotes.com</a>
+              </p>
+              <p>
+                Datenschutz-Anfragen:
+                <a href="mailto:datenschutz@delugenotes.com"
+                  >datenschutz@delugenotes.com</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <h2>Kontaktformular</h2>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Name / Unternehmen</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Ihr Name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-Mail-Adresse</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="ihre.adresse@beispiel.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Betreff</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>
+                    Bitte wählen Sie ein Thema
+                  </option>
+                  <option value="support">
+                    Technischer Support (App, Sync, GeoGebra)
+                  </option>
+                  <option value="billing">
+                    Fragen zum Abonnement / Abrechnung
+                  </option>
+                  <option value="edu">
+                    Deluge Edu (Lizenzen für Schulen &amp; Unis)
+                  </option>
+                  <option value="feedback">
+                    Lob, Kritik &amp; Feature-Wünsche
+                  </option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Ihre Nachricht</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="Wie können wir Ihnen helfen?"
+                ></textarea>
+              </div>
+
+              <div class="checkbox-group">
+                <input type="checkbox" id="privacy" name="privacy" required />
+                <label for="privacy">
+                  Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur
+                  Beantwortung meiner Anfrage erhoben und verarbeitet werden.
+                  (Widerruf jederzeit an privacy@delugenotes.com möglich).
+                </label>
+              </div>
+
+              <div class="submit-container">
+                <button type="submit">Nachricht senden</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-section faq-section">
+        <h2 class="video-title">Häufig gestellte Fragen (FAQ):</h2>
+        <ul class="feature-list">
+          <li>
+            <strong
+              >Wie funktioniert die Synchronisation mit Google Keep?</strong
+            >
+            Nach der Verknüpfung Ihres Kontos in den Einstellungen werden
+            Keep-Notizen automatisch in Ihrem Deluge-Dashboard gespiegelt und
+            können per Drag-and-Drop in Ihre Dokumente gezogen werden.
+          </li>
+          <li>
+            <strong>Gibt es Ermäßigungen für Schulklassen?</strong>
+            Ja! Über unseren Deluge Edu-Tarif bieten wir stark vergünstigte
+            Konditionen und zentrale Verwaltungstools für Bildungseinrichtungen
+            an. Kontaktieren Sie dafür einfach unser Edu-Team unter
+            edu@delugenotes.com.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="footer-nav" aria-label="Fußzeilen-Navigation">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="lizenz.html">Lizenz</a>
+        <a href="barrierefreiheitserklaerung.html">Barrierefreiheit</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </footer>
+  </body>
+</html>
